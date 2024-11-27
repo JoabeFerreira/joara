@@ -1,7 +1,7 @@
 import { FC, useState } from "react"
 import "./children-selector.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck, faFemale, faMale, faMars, faVenus } from "@fortawesome/free-solid-svg-icons";
+import { faCheck,faMars, faVenus } from "@fortawesome/free-solid-svg-icons";
 
 interface Props {
     children: Child[]
